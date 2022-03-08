@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Marek Kaczmarski</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="column">
+    <header>
+        <h1 class="animate"><span>{</span>Marek<span>_</span>Kaczmarski<span>};</span></h1>
+        <div class="nav">
+            <a onclick="document.getElementById('webdesign').scrollIntoView({behavior: 'smooth'})">Frontend</a>
+            <a onclick="document.getElementById('gamedev').scrollIntoView({behavior: 'smooth'})">Games</a>
+            <a onclick="document.getElementById('music').scrollIntoView({behavior: 'smooth'})">Music</a>
+        </div>
+    </header>
+    <main>
+        <h2>Hello world!</h2>
+        <p>
+            I'm a 23-year old passionate programmer, designer, and music producer from Warsaw, Poland. 
+        </p>
+        <h2 id="webdesign">Web design</h2>
+        <p>
+            I make elegant and minimalistic responsive websites using HTML, CSS/SCSS, and Javascript.
+        </p>
+        <h2 id="gamedev">Game development</h2>
+        <p>
+            Currently I'm working on a text-based resource management game written in Javascript: <a href="https://vrath.github.io/IdleEmpire/">Idle Empire</a>
+        </p>
+        <h2 id="music">Music production</h2>
+        <p>
+            In my free time, I also produce ambient/psychedelic/experimental music.<br>
+            <iframe class="player" src="https://bandcamp.com/EmbeddedPlayer/album=1732245747/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://s0undweaver.bandcamp.com/album/deschloroflux">Deschloroflux by Soundweaver</a></iframe><iframe class="player" src="https://bandcamp.com/EmbeddedPlayer/album=4061459459/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://s0undweaver.bandcamp.com/album/miprogenesis">Miprogenesis by Soundweaver</a></iframe>
+        </p>
+
+    </main>
+    <footer>
+        <p>© <script>document.write(new Date().getFullYear())</script> Marek Kaczmarski</p>
+    </footer>
+</div>
+<script src="main.js" charset="utf-8" type="text/javascript"></script>
+</body>
+</html>
